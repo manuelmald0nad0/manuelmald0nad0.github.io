@@ -1,7 +1,7 @@
 <h1> Good morning, USA </h1>
 # top 3 elementos
-**negrita**
-*cursiva*
+<b>negrita</b>
+<i>cursiva</i>
 
 <p1> I got a feeling that it's gonna be
 A wonderful day
