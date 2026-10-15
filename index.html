@@ -1,69 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convención de Videojuegos</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>escomz.github.io — Proyectos y Código</title>
+  <!-- Redirección automática a visor.html -->
+  <meta http-equiv="refresh" content="0; url=visor.html">
+  <style>
+    :root {
+      --primary: #1d3557;
+      --accent: #2cd326;
+      --bg: #f4f5f8;
+      --card: #ffffff;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #222;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 2.5rem;
+      max-width: 500px;
+      width: 90%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    h1 { margin-top: 0; color: var(--primary); font-size: 1.5rem; }
+    p { color: #666; margin-bottom: 1.5rem; font-size: 0.95rem; }
+    .links { display: flex; flex-direction: column; gap: 0.75rem; }
+    .btn {
+      display: block;
+      padding: 0.75rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.2s;
+    }
+    .btn-primary { background: #1d3557; color: #fff; }
+    .btn-primary:hover { background: #457b9d; }
+    .btn-accent { background: var(--accent); color: #14213d; }
+    .btn-accent:hover { background: #24af1f; color: #fff; }
+    .btn-outline { border: 1px solid #ccc; color: #333; }
+    .btn-outline:hover { background: #e9ecef; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Gameverse Expo 2025</h1>
-    </header>
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#eventos">Eventos</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-    <section class="hero">
-        <h2>¡Bienvenidos a la mayor convención de videojuegos!</h2>
-        <p>Explora los últimos lanzamientos, participa en torneos y conoce a tus desarrolladores favoritos.</p>
-        <div class="cta">
-            <a href="#registro">Regístrate Ahora</a>
-        </div>
-    </section>
-    <section id="eventos" class="events">
-        <h2>Eventos Destacados</h2>
-        <div class="event">
-            <h3>Conferencia de Apertura</h3>
-            <p>Únete a la inauguración con invitados especiales y sorpresas.</p>
-        </div>
-        <div class="event">
-            <h3>Zona Indie</h3>
-            <p>Explora juegos innovadores creados por desarrolladores independientes.</p>
-        </div>
-        <div class="event">
-            <h3>Competencia de Cosplay</h3>
-            <p>Demuestra tu creatividad y gana premios increíbles.</p>
-        </div>
-    </section>
-        </div>
-    </section>
-    <section id="contacto" class="contact">
-        <h2>Contacto</h2>
-        <p>¿Tienes preguntas? ¡Contáctanos!</p>
-        <form action="#" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
-        <p>También puedes escribirnos a: <a href="mailto:info@convencionvideojuegos.com">info@convencionvideojuegos.com</a></p>
-        <p>Síguenos en nuestras redes sociales:</p>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-        </ul>
-    </section>
-    <footer>
-        <p>&copy; Gameverse Expo 2025. Todos los derechos reservados.</p>
-    </footer>
+  <div class="card">
+    <h1>🚀 escomz.github.io</h1>
+    <p>Redirigiendo al visor de proyectos y código...</p>
+    <div class="links">
+      <a href="visor.html" class="btn btn-accent">💻 Abrir Visor de Código &amp; Proyectos</a>
+      <a href="proyecto1/" class="btn btn-primary">▶ Ver Proyecto 1 (Hola Mundo TS)</a>
+      <a href="guia.html" class="btn btn-outline">📖 Ver Guía de Configuración</a>
+    </div>
+  </div>
 </body>
 </html>
